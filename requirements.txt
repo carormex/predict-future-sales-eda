@@ -1,0 +1,22 @@
+ipython
+jupyterlab
+loguru
+matplotlib
+notebook
+numpy
+pandas
+pip
+python-dotenv
+ruff
+scikit-learn
+tqdm
+typer
+-e .
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+statsmodels
+jupyter
+ipykernel
