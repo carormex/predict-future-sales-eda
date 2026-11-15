@@ -1,10 +1,18 @@
-# predict-future-sales-eda
+# Predict Future Sales — EDA orientado a forecasting
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+Proyecto 1 · Exploratory Data Analysis del dataset **Predict Future Sales** (Kaggle, 1C Company).
+Autora: Ingrid Carolina Ortiz Mejicanos — Universidad Galileo.
 
-EDA de Predict Future Sales orientado a forecasting
+**Notebook principal:** `notebooks/01_exploratory_data_analysis.ipynb`
+**Figuras:** `reports/figures/`
+**Traducciones ruso → español:** `predict_future_sales_eda/traducciones.py`
+
+## Cómo ejecutarlo
+1. Descargar los datos de [Kaggle](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/data) y colocar los CSV en `data/raw/` (no se versionan, ~100 MB).
+2. `pip install -r requirements.txt`
+3. Abrir el notebook y ejecutar todas las celdas.
+
+**Uso de IA:** desarrollado con apoyo de Claude Code en VSCode, como permite el enunciado.
 
 ## Project Organization
 
