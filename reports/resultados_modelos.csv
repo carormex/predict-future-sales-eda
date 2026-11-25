@@ -1,0 +1,16 @@
+modelo,familia,parametros,rmse_train,rmse_valid,segundos
+LightGBM #3,LightGBM,"{'n_estimators': 800, 'learning_rate': 0.03, 'num_leaves': 127, 'min_child_samples': 50, 'colsample_bytree': 0.8}",0.6959401734040332,0.8199917563384319,14.215660572052002
+LightGBM #1,LightGBM,"{'n_estimators': 300, 'learning_rate': 0.05, 'num_leaves': 31}",0.782141398652091,0.8200830954933062,3.85878324508667
+HistGradientBoosting #2,HistGradientBoosting,"{'max_iter': 300, 'learning_rate': 0.05, 'max_leaf_nodes': 63}",0.7515558273393919,0.820650996852714,13.062398672103882
+LightGBM #2,LightGBM,"{'n_estimators': 500, 'learning_rate': 0.05, 'num_leaves': 63, 'subsample': 0.8, 'subsample_freq': 1, 'colsample_bytree': 0.8}",0.722015995934609,0.8208546016499949,7.53168249130249
+RandomForest #2,RandomForest,"{'n_estimators': 50, 'max_depth': 16, 'min_samples_leaf': 20, 'max_samples': 0.3}",0.8181946857162704,0.8214014672292056,26.174903631210327
+HistGradientBoosting #1,HistGradientBoosting,"{'max_iter': 200, 'learning_rate': 0.1, 'max_leaf_nodes': 31}",0.774970310579637,0.8227283957688094,10.925187110900879
+RandomForest #3,RandomForest,"{'n_estimators': 80, 'max_depth': 22, 'min_samples_leaf': 10, 'max_samples': 0.3}",0.7842617827136702,0.8227570603948573,48.42790174484253
+RandomForest #1,RandomForest,"{'n_estimators': 50, 'max_depth': 10, 'min_samples_leaf': 50, 'max_samples': 0.3}",0.8537148290335163,0.8267791144916529,19.540148735046387
+HistGradientBoosting #3,HistGradientBoosting,"{'max_iter': 300, 'learning_rate': 0.1, 'max_leaf_nodes': 127, 'l2_regularization': 1.0}",0.6867483561802376,0.8291169357226337,12.18384051322937
+XGBoost #2,XGBoost,"{'n_estimators': 500, 'learning_rate': 0.05, 'max_depth': 8, 'subsample': 0.8, 'colsample_bytree': 0.8}",0.6702186465263367,0.8303654193878174,17.67833423614502
+XGBoost #1,XGBoost,"{'n_estimators': 300, 'learning_rate': 0.1, 'max_depth': 6}",0.7404036521911621,0.8312652111053467,7.149129629135132
+XGBoost #3,XGBoost,"{'n_estimators': 600, 'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 10, 'subsample': 0.8, 'colsample_bytree': 0.8}",0.6147277355194092,0.8314277529716492,23.977150440216064
+Ridge #3,Ridge,{'alpha': 1000.0},0.9232171177864075,0.8716630339622498,0.19245672225952148
+Ridge #2,Ridge,{'alpha': 10.0},0.9232065081596375,0.8716694712638855,1.70121431350708
+Ridge #1,Ridge,{'alpha': 0.1},0.9232063889503479,0.8716698884963989,1.6463038921356201

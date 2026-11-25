@@ -1,0 +1,86 @@
+{
+  "mes_ini_train": 12,
+  "mes_fin_train": 26,
+  "mes_ini_valid": 27,
+  "mes_fin_valid": 33,
+  "mes_test": 34,
+  "rezagos_par": [
+    1,
+    2,
+    3,
+    5,
+    12
+  ],
+  "rezagos_item": [
+    1,
+    2,
+    3
+  ],
+  "rezagos_tienda": [
+    1
+  ],
+  "rezagos_categoria": [
+    1
+  ],
+  "imputacion_categorica_moda": [
+    "categoria_grupo",
+    "ciudad",
+    "tienda_tipo"
+  ],
+  "imputacion_numerica_mediana_categoria": [
+    "precio_ultimo_item"
+  ],
+  "imputacion_numerica_cero": [
+    "venta_par_lag_1",
+    "venta_par_lag_2",
+    "venta_par_lag_3",
+    "venta_par_lag_5",
+    "venta_par_lag_12",
+    "venta_item_lag_1",
+    "venta_item_lag_2",
+    "venta_item_lag_3",
+    "venta_tienda_lag_1",
+    "venta_categoria_lag_1"
+  ],
+  "outliers_iqr_log": [
+    "precio_ultimo_item"
+  ],
+  "outliers_percentil_99_5": [
+    "venta_item_lag_1",
+    "venta_item_lag_2",
+    "venta_item_lag_3"
+  ],
+  "transformacion_log": [
+    "precio_ultimo_item",
+    "venta_item_lag_1",
+    "venta_item_lag_2",
+    "venta_item_lag_3"
+  ],
+  "mapper_mes_indice_estacional": {
+    "1": 103.6,
+    "2": 99.0,
+    "3": 108.9,
+    "4": 85.0,
+    "5": 85.5,
+    "6": 92.4,
+    "7": 86.4,
+    "8": 94.8,
+    "9": 96.3,
+    "10": 97.8,
+    "11": 103.4,
+    "12": 147.0
+  },
+  "target_encoding": [
+    "shop_id",
+    "item_category_id",
+    "ciudad"
+  ],
+  "one_hot": [
+    "categoria_grupo",
+    "tienda_tipo"
+  ],
+  "eliminar": [
+    "item_id"
+  ],
+  "escalado": "StandardScaler (todas las variables finales)"
+}
